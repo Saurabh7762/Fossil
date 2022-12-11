@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./fossil.css" />
+    <script src="./fossil.js"></script>
+    <script src="https://kit.fontawesome.com/374cfe6add.js" crossorigin="anonymous"></script>
+    <style>
+        .topnav {
+            margin-top: 75px;
+            width: 98.8vw;
+        }
+
+        .container {
+            position: relative;
+            margin: 0;
+            padding: 0;
+        }
+
+        .size {
+            width: 100%;
+        }
+
+        #content1 {
+            position: relative;
+        }
+
+        #img1text1 {
+            position: absolute;
+            font-size: 10px;
+            color: white;
+            /* border: 2px solid red; */
+            font-family: monospace;
+        }
+
+        #img1text2 {
+            position: absolute;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            /* border: 2px solid red; */
+            color: aliceblue;
+        }
+
+        #img1text3 {
+            position: absolute;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            /* border: 2px solid red; */
+            color: aliceblue;
+        }
+
+        #row1,
+        #row2 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .mincontainer {
+            position: relative;
+            width: 330px;
+            height: 450px;
+            margin: 10px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            /* border: 2px solid black; */
+            /* width: 330px; */
+        }
+
+        .blacktxt {
+            position: absolute;
+            color: rgb(21, 21, 21);
+            font-family: monospace;
+            font-size: 18px;
+            bottom: 20px;
+        }
+
+        .e1 {
+            background-image: url("12.6_IN_HOL-Launch_HP_Hero-02-1.2_M.jpg");
+
+        }
+
+        .e1:hover {
+            background-image: url("12.6_IN_HOL-Launch_HP_Hero-02-1.1_M.jpg");
+        }
+
+        .e2 {
+            background-image: url("12.6_IN_HOL-Launch_HP_Hero-02-2.2_M.jpg");
+        }
+
+        .e2:hover {
+            background-image: url("12.6_IN_HOL-Launch_HP_Hero-02-2.1_M.jpg");
+        }
+
+        .e3 {
+            background-image: url("12.6_IN_HOL-Launch_HP_Hero-02-3.2_M.jpg");
+        }
+
+        .e3:hover {
+            background-image: url("12.6_IN_HOL-Launch_HP_Hero-02-3.1_M.jpg");
+        }
+
+        .e4 {
+            background-image: url("12.6_IN_HOL-Launch_HP_Hero-02-4.2_M.jpg");
+        }
+
+        .e4:hover {
+            background-image: url("12.6_IN_HOL-Launch_HP_Hero-02-4.1_M.jpg");
+        }
+
+        .f1 {
+            background-image: url("Screenshot\ 2022-12-10\ 054344.jpg");
+
+        }
+
+        .f1:hover {
+            background-image: url("LE1158-alt.jfif");
+        }
+
+        .f2 {
+            background-image: url("Screenshot\ 2022-12-10\ 054413.jpg");
+        }
+
+        .f2:hover {
+            background-image: url("FTW6068-alt.jfif");
+        }
+
+        .f3 {
+            background-image: url("Screenshot\ 2022-12-10\ 054428.jpg");
+        }
+
+        .f3:hover {
+            background-image: url("LE1157-alt.jfif");
+        }
+
+        .f4 {
+            background-image: url("Screenshot\ 2022-12-10\ 054441.jpg");
+        }
+
+        .f4:hover {
+            background-image: url("FTW4059-alt.jfif");
+        }
+
+        .f5 {
+            background-image: url("Screenshot\ 2022-12-10\ 054457.jpg");
+        }
+
+        .f5:hover {
+            background-image: url("FTW4071-alt.jfif");
+        }
+
+        .float {
+        
+            position: fixed;
+            cursor: pointer;
+            width: auto;
+            height: auto;
+            margin: 0px !important;
+            padding: 5px !important;
+            border: 1px solid gray !important;
+            z-index: 2147483647 !important;
+            text-align: right !important;
+            vertical-align: top !important;
+            background-color: white !important;
+            right: 0px;
+            top: 330px;
+            writing-mode:vertical-rl;
+            transform: rotate(-180deg);
+            /* border-color: solid grey; */
+            font-weight: bolder;
+            
+        
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="float">
+        <!-- <img src="img/Screenshot (223).png" alt=""> -->
+        FEEDBACK
+    </div>
+    <div class="navtop" style="padding-top: 10px;">
+        <div class="navstore" width="35%">
+            <!-- Limited Edition | Gringotts Coin Collection | Gift With Purchase -->
+            <a href="#" style="text-decoration-line: underline; color: black;">Limited Edition | Gringotts Coin
+                Collection | Gift With Purchase</a>
+        </div>
+        <div class="navkkk" width="30%"></div>
+        <div class="navkkk">
+            <ul class="navtopside">
+                <li class="navtopside1">Our Responsibility</li>
+                <div class="shiptonav2">
+                    <li class="shiptonav">
+                        Ship To<img class="indianflag" src="./img/icons8-india-48.png" alt="indianflag" />
+                        <i id="rotatedtopnav"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </i>
+                    </li>
+                </div>
+                <li class="navtopside1">Order Status</li>
+                <li class="navtopside1">Sign in</li>
+                <li class="navtopside3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                    </svg>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <nav>
+        <div class="rapper">
+            <div class="fossil"><a href="#">FOSSIL</a></div>
+            <ul class="nav-links">
+                <li>
+                    <a href="#">WOMENS</a>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <header>WATCHES</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">View All</a></li>
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Smartwatches</a></li>
+                                    <li><a href="#">Hybrid Smartwatches</a></li>
+                                    <li><a href="#">Boyfriend Watches</a></li>
+                                    <li><a href="#">Leather Watches</a></li>
+                                    <li><a href="#">Rose Gold Tone Watches</a></li>
+                                    <li><a href="#">Stainless Steel Watches</a></li>
+                                    <li><a href="#">Watches Straps</a></li>
+                                    <li><a href="#">Sale Watches</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>HANDBAGS</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">View All</a></li>
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Crossbody Bags</a></li>
+                                    <li><a href="#">Satchel & Shoulder Bags</a></li>
+                                    <li><a href="#">Tote Bags</a></li>
+                                    <li><a href="#">Backpacks</a></li>
+                                    <li><a href="#">Work Bags</a></li>
+                                    <li><a href="#">Sale Bags</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>WALLETS</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">View All</a></li>
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Phone Wallets</a></li>
+                                    <li><a href="#">RFID Wallets</a></li>
+                                    <li><a href="#">Wristlets</a></li>
+                                    <li><a href="#">Zip Wallets</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <!-- <header>WALLETS</header> -->
+                                <ul class="mega-links">
+                                    <li><a href="#">NEW ARRIVALS</a></li>
+                                    <li><a href="#">JEWELLERY</a></li>
+                                    <li><a href="#">ACCESSORIES</a></li>
+                                    <li><a href="#">SUNGLASSES</a></li>
+                                    <li><a href="#">PLANET-FRIENDLY</a></li>
+                                    <li><a href="#">GIFTS</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <img src="img/Womens-bag-1.jpg" alt="img">
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">MENS</a>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <header>WATCHES</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">View All</a></li>
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Smartwatches</a></li>
+                                    <li><a href="#">Hybrid Smartwatches</a></li>
+                                    <li><a href="#">Mechanical Watches</a></li>
+                                    <li><a href="#">Leather Watches</a></li>
+                                    <li><a href="#">Stainless steel Watches</a></li>
+                                    <li><a href="#">Minimalist Steel Watches</a></li>
+                                    <li><a href="#">Watches Straps</a></li>
+                                    <li><a href="#">Sale Watches</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>BAGS</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">View All</a></li>
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Backpacks</a></li>
+                                    <li><a href="#">Messenger Bags</a></li>
+                                    <li><a href="#">Work Bags</a></li>
+                                    <li><a href="#">Travel Bags</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>WALLETS</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">View All</a></li>
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">RFID Wallets</a></li>
+                                    <li><a href="#">Bifold Wallets</a></li>
+                                    <li><a href="#">Card Cases</a></li>
+                                    <li><a href="#">Front Pocket Wallets</a></li>
+                                    <li><a href="#">Money Clip Wallets</a></li>
+                                    <li><a href="#">Trifold Wallets</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <!-- <header>WALLETS</header> -->
+                                <ul class="mega-links">
+                                    <li><a href="#">NEW ARRIVALS</a></li>
+                                    <li><a href="#">JEWELLERY</a></li>
+                                    <li><a href="#">ACCESSORIES</a></li>
+                                    <li><a href="#">BELTS</a></li>
+                                    <li><a href="#">SUNGLASSES</a></li>
+                                    <li><a href="#">PLANET-FRIENDLY</a></li>
+                                    <li><a href="#">GIFTS</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <img src="img/Mens-1.jpg" alt="img">
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">WATCHES</a>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <header>MEN'S WATCHES</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">View All</a></li>
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Smartwatches</a></li>
+                                    <li><a href="#">Mechanical Watches</a></li>
+                                    <li><a href="#">Leather Watches</a></li>
+                                    <li><a href="#">Stainless steel Watches</a></li>
+                                    <li><a href="#">Minimalist Steel Watches</a></li>
+                                    <li><a href="#">Watches Straps</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>WOMEN'S WATCHES</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">View All</a></li>
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Smartwatches</a></li>
+                                    <li><a href="#">Boyfriend Watches</a></li>
+                                    <li><a href="#">Leather Watches</a></li>
+                                    <li><a href="#">Rose Gold Tone Watches</a></li>
+                                    <li><a href="#">Stainless Steel Watches</a></li>
+                                    <li><a href="#">Watches Straps</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>SMARTWATCHES</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Smartwatch Straps</a></li>
+                                    <li><a href="#">View All</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>LEARN MORE</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Compare Smartwatches</a></li>
+                                    <li><a href="#">Fossil Smartwatch App</a></li>
+                                    <li><a href="#">Gen 6 Hybrid Smartwatches</a></li>
+                                    <li><a href="#">Gen 6 Smartwatches</a></li>
+                                    <li><a href="#">Gen 6 Wellness</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <img src="img/Watches-section3.jpg" alt="img">
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">BAGS</a>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <header>MEN'S BAGS</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">View All</a></li>
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Backpacks</a></li>
+                                    <li><a href="#">Messenger Bags</a></li>
+                                    <li><a href="#">Travel Bags</a></li>
+                                    <li><a href="#">Work Bags</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>WOMEN'S HANDBAGS</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">View All</a></li>
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Crossbody Bags</a></li>
+                                    <li><a href="#">Satchel & Shoulder Bags</a></li>
+                                    <li><a href="#">Tote Bags</a></li>
+                                    <li><a href="#">Mini Bags</a></li>
+                                    <li><a href="#">Travel Bags</a></li>
+                                    <li><a href="#">Backpacks</a></li>
+                                    <li><a href="#">Work Bags</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <img src="img/TopNav-Bags4.jpg" alt="img">
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">WALLETS</a>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <header>MEN'S WALLETS</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">View All</a></li>
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Best Sellers</a></li>
+                                    <li><a href="#">RFID Wallets</a></li>
+                                    <li><a href="#">Bifold Wallets</a></li>
+                                    <li><a href="#">Card Cases</a></li>
+                                    <li><a href="#">Front Pocket Wallets</a></li>
+                                    <li><a href="#">Executive Wallets</a></li>
+                                    <li><a href="#">Trifold Wallets</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>WOMEN'S WALLETS</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">View All</a></li>
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Best Sellers</a></li>
+                                    <li><a href="#">RFID Wallets</a></li>
+                                    <li><a href="#">Zip Wallets</a></li>
+                                    <li><a href="#">Flap Wallets</a></li>
+                                    <li><a href="#">Mini Wallets</a></li>
+                                    <li><a href="#">Phone Wallets</a></li>
+                                    <li><a href="#">Wristlets</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <img src="img/TopNav-Wallets5.jpg" alt="img">
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">JEWELRY</a>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <header>MEN'S JEWELLERY</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">View All</a></li>
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Bracelets</a></li>
+                                    <li><a href="#">Necklaces</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>WOMEN'S JEWELLERY</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">View All</a></li>
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Bracelets</a></li>
+                                    <li><a href="#">Earrings</a></li>
+                                    <li><a href="#">Necklaces</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>OH SO CHARMING</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">View All</a></li>
+                                    <li><a href="#">Chains</a></li>
+                                    <li><a href="#">Charms</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="row">
+                                <img src="img/TopNav-Jewelry6.jpg" alt="img">
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">SALE</a>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <header>MEN'S SALE</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">View All</a></li>
+                                    <li><a href="#">Smartwatches</a></li>
+                                    <li><a href="#">Watches</a></li>
+                                    <li><a href="#">Wallets</a></li>
+                                    <li><a href="#">Jewelry</a></li>
+                                    <li><a href="#">Bags</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>WOMEN'S SALE</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">View All</a></li>
+                                    <li><a href="#">Smartwatches</a></li>
+                                    <li><a href="#">Watches</a></li>
+                                    <li><a href="#">Handbags</a></li>
+                                    <li><a href="#">Jewelry</a></li>
+                                    <li><a href="#">Wallets</a></li>
+                                    <li><a href="#">Accessories</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <img src="img/sale40.jpg" alt="img">
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">FEATURED</a>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <header>OUR STORIES</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Collectors Club</a></li>
+                                    <li><a href="#">Fossil Foundation</a></li>
+                                    <li><a href="#">Our Responsibility</a></li>
+                                    <li><a href="#">RFID Wallets</a></li>
+                                    <li><a href="#">Pro Planet</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>THE EDIT</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Harry Potter</a></li>
+                                    <li><a href="#">Fossil Heritage</a></li>
+                                    <li><a href="#">Graduation Gifts</a></li>
+                                    <li><a href="#">Mechanicals</a></li>
+                                    <li><a href="#">Now Trending: Shaped Cases</a></li>
+                                    <li><a href="#">Rock Candy Slap Watch</a></li>
+                                    <li><a href="#">The Gift Edit</a></li>
+                                    <li><a href="#">Wedding Gifts</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <img src="img/Topnav_Featured8.jpg" alt="img">
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <div class="search-icon"><i class="fas fa-search"></i></div>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div>
+            <img class="topnav" src="Screenshot 2022-12-11 173030.jpg">
+        </div>
+
+
+        <div class="container">
+            <img class="size" src="12.6_IN_HOL-Launch_HP_Hero-01_D.jpg">
+            <div id="content1">
+                <div id="img1text1">The Gift Edit</div>
+                <div id="img1text2">For her. For him. For them. For all.</div>
+                <a id="img1text3">SHOP GIFTS</a>
+            </div>
+
+        </div>
+
+
+
+        <div id="row1">
+            <div class="mincontainer e1 commonproperty">
+                <a class="blacktxt" href="#">SHOP HANDBAGS</a>
+            </div>
+            <div class="mincontainer e2">
+                <a class="blacktxt" href="#">SHOP BAGS</a>
+            </div>
+            <div class="mincontainer e3">
+                <a class="blacktxt" href="#">SHOP WOMEN'S JEWELRY</a>
+            </div>
+            <div class="mincontainer e4">
+                <a class="blacktxt" href="#">SHOP MEN'S JEWELRY</a>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <img class="size" src="12.6_IN_HOL-Launch_HP_Hero-03_D.jpg">
+            <div id="img1text2">GIFT SMART</div>
+        </div>
+
+        <div id="row2">
+            <div class="mincontainer f1">
+                <a class="blacktxt" href="#">Limited Edition Harry Potter™ Three-Hand Gryffindor™ Nylon Watch</a>
+            </div>
+            <div class="mincontainer f2">
+                <a class="blacktxt" href="#">Limited Edition Harry Potter™ Automatic Gold-Tone Stainless Steel Watch</a>
+            </div>
+            <div class="mincontainer f3">
+                <a class="blacktxt" href="#">Limited Edition Harry Potter™ Automatic Gold-Tone Stainless Steel Watch</a>
+            </div>
+            <div class="mincontainer f4">
+                <a class="blacktxt" href="#">Gen 6 Smartwatch Smoke Stainless Steel</a>
+            </div>
+            <div class="mincontainer f5">
+                <a class="blacktxt" href="#">Gen 6 Wellness Edition Smartwatch Blush Silicone</a>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <img class="size" src="1107_HO22_Homepage_Hero6_Background_Desktop.jpg">
+            <div id="img1text1">The Gift Edit</div>
+        </div>
+        <div>
+            <img class="size" src="Screenshot 2022-12-11 132420.jpg">
+        </div>
+
+        <footer>
+            <hr />
+            <h3>
+                FOSSIL WATCHES, LEATHER HANDBAGS & ACCESSORIES ARE PERFECT FOR ANY
+                OCCASION
+            </h3>
+            <p class="foot_read">
+                Fossil is an American watch and lifestyle company, creatively rooted in
+                authentic vintage and classic design. We strive to create high-quality
+                watches, bags, jewelry and more that preserve the best of the past while
+                updating it for today. When the clean lines of the mid-century meet the
+                modern looks of today, the result is key items that represent the best of
+                what we stand for: bags that pair portability with streamlined design,
+                traditional watches created in fresh hues and materials, and timeless
+                clothes and accessories that accompany you wherever you are traveling.
+            </p>
+            <div class="hiden_read">
+                <div class="hiden_read1" id="hiden_read" style="display: none">
+                    <h3>WATCH(ING) FOR GREAT LOOKS</h3>
+                    <p>
+                        Our eye-catching men’s watches and women’s watches come stylishly
+                        strapped with leather or merry metallic bands, while our must-have
+                        bags pair fashion and functionality. Lovely rose gold-tone watches for
+                        her and handsome Swiss watches for him retain all the qualities you
+                        love the most in a classic Fossil. Pair them with our covetable cuffs,
+                        sparkling studs or glamorous necklaces for a look that goes from day
+                        to night with ease.
+                    </p>
+                    <h3>STYLE FOR MEN AND WOMEN? IT'S IN THE BAG</h3>
+                    <p>
+                        Designed to only get better with age, our perfectly portable bags and
+                        purses feature easy-to-carry silhouettes and long-lasting materials to
+                        help you tote your tech, news and small accessories without
+                        compromising on style. Our signature leather in new neutrals and
+                        vibrant hues captures the richness of each season, while showcasing
+                        the clean lines of our iconic designs. Tech cases, wallets, belts and
+                        gifts are playful and practical accessories that you’ll carry for
+                        years. From classic bags to traditional-with-a-twist watches to small
+                        accessories and more, our collections are created to assure your
+                        destination will be a celebration.
+                    </p>
+                </div>
+            </div>
+            <button onclick="ShowAndHide()" class="footer_btn_read">
+                <!-- <i id="rotated" class="fa-regular fa-chevron-down"></i> -->
+                <i id="rotated" class="fa fa-angle-down" aria-hidden="true"></i>
+                <h2 id="footer_btn_read_moreless">READ MORE</h2>
+            </button>
+            <hr width="90%" />
+            <div class="footer-cont">
+                <div class="cont1">
+                    <h2>Stay Connected</h2>
+                    <form action="" autocomplete="on" method="POST">
+                        <label for="input_mail">Sign up for email updates</label>
+                        <div class="footersignup"></div>
+                        <input type="email" class="input_mail" />
+                        <button class="footersignupbtn">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </form>
+                    <p>
+                        By subscribing to our newsletter you agree to our privacy policy. *
+                        (restrictions and exclusions apply)
+                    </p>
+                    <div>
+                        <ul class="footer_socila" style="padding-left: 0px">
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                            <li><i class="fa-brands fa-pinterest"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-brands fa-youtube"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cont2">
+                    <h3>Discover</h3>
+                    <p><a href="">Fossil Group</a></p>
+                    <p><a href="">Make Time For Good</a></p>
+                    <p><a href="">Fossil Foundation</a></p>
+                    <p><a href="">About Us</a></p>
+                    <p><a href="">Careers</a></p>
+                    <p><a href="">Store Locator</a></p>
+                </div>
+                <div class="cont3">
+                    <h3>Customer Care</h3>
+                    <p><a href="">Order Status</a></p>
+                    <p><a href="">Warranty & Repairs</a></p>
+                    <p><a href="">Watch Care & Instructions</a></p>
+                    <p><a href="">Smartwatch Support</a></p>
+                    <p><a href="">Product Registration</a></p>
+                    <p><a href="">FAQ</a></p>
+                    <p><a href="">ADA Statement - Fossil</a></p>
+                </div>
+                <div class="cont4">
+                    <h3>Contact Us</h3>
+                    <p>
+                        <a
+                            href="https://support.fossilgroup.com/s/contactsupport?language=en_IN">customercare.in@fossil.com</a>
+                    </p>
+                    <p>
+                        0008009190951<br />Order related queries :<br />(Order Status, Return,
+                        Refund & General queries)
+                    </p>
+                    <p>
+                        Tel: 0008009190951 <br />Email:<br /><span><a
+                                href="mailto: Customercare.in@fossil.com">Customercare.in@fossil.com</a></span><br />Hours:
+                        Monday - Sunday : 10:00am - 7:00pm<br />(Excluding
+                        Public Holidays)
+                    </p>
+                    <p>
+                        For After Sales Service Queries :<br />(Product Service, Warranty
+                        Claim)
+                    </p>
+                    <p>
+                        Tel: 0008009190951 <br />Email:<br /><span><a
+                                href="mailto: Customercare.in@fossil.com">Customercare.in@fossil.com</a></span><br />Hours:
+                        Monday - Sunday : 10:00am - 7:00pm<br />(Excluding
+                        Public Holidays)
+                    </p>
+                    <button>FEEDBACK</button>
+                </div>
+            </div>
+        </footer>
+        <section class="btm_footer">
+            <ul>
+                <li>©2022 FOSSIL GROUP, INC.</li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">APP Privacy Policy</a></li>
+                <li><a href="">Terms of Use</a></li>
+                <li><a href="">CA Use</a></li>
+                <li><a href="">Stores</a></li>
+            </ul>
+        </section>
+</body>
+
+</html>
