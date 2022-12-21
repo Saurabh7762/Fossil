@@ -1,4 +1,25 @@
-.navtop{
+.float {
+        
+    position: fixed;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    margin: 0px !important;
+    padding: 5px !important;
+    border: 1px solid gray !important;
+    z-index: 2147483647 !important;
+    text-align: right !important;
+    vertical-align: top !important;
+    background-color: white !important;
+    right: 0px;
+    top: 330px;
+    writing-mode:vertical-rl;
+    transform: rotate(-180deg);
+    /* border-color: solid grey; */
+    font-weight: bolder;
+}
+
+.topnav{
     display: flex;
     justify-content: space-between;
 }
@@ -25,6 +46,9 @@
 .indianflag{
     height: 18px;
 }
+.Rblacktxt{
+    text-decoration: underline !important;
+}
 .shiptonav{
     column-gap: 3px;
     display: flex;
@@ -43,7 +67,7 @@
 }
 nav{
     background: white;
-    position: fixed;
+    position:absolute;
     width: 100%;
     z-index: 1000;
     height: 65px;
@@ -162,6 +186,9 @@ footer{
     width: 30%;
     margin-right: 5px;
 }
+.footer-last{
+    margin-top: 5px ;
+}
 .footersignup{
     margin-top: 7px;
 }
@@ -223,18 +250,40 @@ footer{
     height: 50px;
     width: 99%;
     padding: 0px;
-    margin: 0px;
+    margin-top: 20px;
 
 }
 .btm_footer ul{
     display: flex;
     justify-content: space-around;
     list-style: none;
+    margin-top: 20px;
+    font-size: small;
+
    
 }
 .btm_footer a{
     color: #000;
     text-decoration: none;
+}
+
+
+.footer2{
+    margin-top: 18px;
+    /* border: 1px solid red; */
+}
+.footer4{
+    margin-top: 18px;
+}
+.foot1{
+    margin-top: 20px;
+
+}
+#footer8{
+   margin-left: 135px;
+    margin-top: 4rem !important;
+    /* margin-bottom: 3rem !important; */
+    
 }
 
 

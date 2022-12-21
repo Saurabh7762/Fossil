@@ -1,0 +1,267 @@
+*{
+    /* border: 2px solid red; */
+}
+.Rnavtop{
+    margin-top: 50px;
+    width: 98vw;
+}
+.Rcontainer{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.Rfirstcontainer{
+    position: relative;
+}
+#Rhero{
+    position: absolute;
+    width: 18%;
+    left: 130px;
+    bottom: 430px;
+    /* border: 10px solid red; */
+}
+
+#Rhero2{
+    position: absolute;
+    width: 10%;
+    left: 1035px;
+    bottom: 450px;
+    /* border: 10px solid red; */
+}
+
+#Rhero3{
+    position: absolute;
+    width: 32%;
+    left: 65px;
+    bottom: 200px;
+    /* border: 10px solid red; */
+}
+
+
+.Rsize{
+    width: 100%;
+}
+
+#Rcontent1{
+    /* position: relative; */
+}
+#Rimg1text1{
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    left: 130px;
+    bottom: 370px;
+    /* border: 2px solid red; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Rimg1text2{
+    position: absolute;
+    font-size: 17px;
+    font-weight:300;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* border: 2px solid red; */
+    color: aliceblue;
+    left: 150px;
+    bottom: 340px;
+}
+#Rimg1text3{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* border: 2px solid red; */
+    color: aliceblue;
+    left: 200px;
+    bottom: 300px;
+}
+
+
+#Rimg2text1{
+    position: absolute;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    left: 1000px;
+    bottom: 370px;
+    /* border: 2px solid red; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Rimg2text2{
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    font-size: 17px;
+    font-weight:500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-wrap: normal;
+    /* border: 2px solid red; */
+    color: aliceblue;
+    left: 950;
+    bottom: 320px;
+}
+#Rimg2text3{
+    position: absolute;
+    font-size: 20px;
+    font-weight:500;
+    font-family: 'Times New Roman', Times, serif;
+    /* border: 2px solid red; */
+    color: aliceblue;
+    left: 1000;
+    bottom: 280px;
+}
+
+#Rimg3text1{
+    position: absolute;
+    width: 500;
+    overflow-wrap: normal;
+    text-align: center;
+    font-size: 15px;
+    font-weight:500;
+    font-family:cursive;
+    /* border: 2px solid red; */
+    color: aliceblue;
+    left: 75;
+    bottom: 150px;
+}
+#Rimg3text2{
+    position: absolute;
+    font-size: 18px;
+    font-weight:500;
+    font-family: 'Times New Roman', Times, serif;
+    /* border: 2px solid red; */
+    color: aliceblue;
+    left: 245px;
+    bottom: 90px;
+    padding: 6.5px 20px;
+    text-decoration: none;
+    border: 1px solid rgb(34, 34, 34);
+    background-color: rgb(34, 34, 34);
+    border-radius: 24px;
+}
+
+#Rimg3text2:hover{
+    position: absolute;
+    font-size: 18px;
+    font-weight:500;
+    font-family: 'Times New Roman', Times, serif;
+    /* border: 2px solid red; */
+    color: black;
+    left: 245px;
+    bottom: 90px;
+    padding: 6.5px 20px;
+    text-decoration: none;
+    border: 1px solid rgb(34, 34, 34);
+    background-color: rgb(255, 255, 255);
+    border-radius: 24px;
+}
+
+#Rrow1,#Rrow2{
+    display: flex;
+    justify-content: center;
+}
+
+.Rmincontainer{
+    position: relative;
+    width: 330px;
+    height: 450px;
+    margin: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 2px solid black; */
+    /* width: 330px; */
+}
+
+.Rblacktxt{
+    position: absolute;
+    color: rgb(21, 21, 21);
+    font-family: monospace;
+    font-size: 18px;
+    bottom: 20px;
+}
+
+.Re1{
+    background-image: url("12.6_IN_HOL-Launch_HP_Hero-02-1.2_M.jpg");
+    
+}
+.Re1:hover{
+    background-image: url("12.6_IN_HOL-Launch_HP_Hero-02-1.1_M.jpg");
+}
+
+.Re2{
+    background-image: url("12.6_IN_HOL-Launch_HP_Hero-02-2.2_M.jpg");
+}
+.Re2:hover{
+    background-image: url("12.6_IN_HOL-Launch_HP_Hero-02-2.1_M.jpg");
+}
+
+.Re3{
+    background-image: url("12.6_IN_HOL-Launch_HP_Hero-02-3.2_M.jpg");
+}
+.Re3:hover{
+    background-image: url("12.6_IN_HOL-Launch_HP_Hero-02-3.1_M.jpg");
+}
+
+.Re4{
+    background-image: url("12.6_IN_HOL-Launch_HP_Hero-02-4.2_M.jpg");
+}
+.Re4:hover{
+    background-image: url("12.6_IN_HOL-Launch_HP_Hero-02-4.1_M.jpg");
+}
+
+.Rf1{
+    background-image: url("Screenshot\ 2022-12-10\ 054344.jpg");
+    
+}
+.Rf1:hover{
+    background-image: url("LE1158-alt.jfif");
+}
+
+.Rf2{
+    background-image: url("Screenshot\ 2022-12-10\ 054413.jpg");
+}
+.Rf2:hover{
+    background-image: url("FTW6068-alt.jfif");
+}
+
+.Rf3{
+    background-image: url("Screenshot\ 2022-12-10\ 054428.jpg");
+}
+.Rf3:hover{
+    background-image: url("LE1157-alt.jfif");
+}
+
+.Rf4{
+    background-image: url("Screenshot\ 2022-12-10\ 054441.jpg");
+}
+.Rf4:hover{
+    background-image: url("FTW4059-alt.jfif");
+}
+
+.Rf5{
+    background-image: url("Screenshot\ 2022-12-10\ 054457.jpg");
+}
+.Rf5:hover{
+    background-image: url("FTW4071-alt.jfif");
+}
+
+.Rr2{
+    text-decoration:none !important;
+    font-size: 15px;
+    font-weight: 200;
+    top: 310px !important;
+}
+.Rr3{
+    position: relative;
+    top: 360px;
+}
+
+
+#Rrheading{
+    text-align: center;
+    font-family:cursive;
+    font-size: 6rem;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
